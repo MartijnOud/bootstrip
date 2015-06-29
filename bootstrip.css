@@ -7,6 +7,17 @@
 /*!
  * Bootstrip - Bootstrap with only the Grid and Responsive components. Build with the Customizer.
  */
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
 .container {
   margin-right: auto;
   margin-left: auto;
